@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+ .jobs{
+ 	display: block;
+	border-style: solid;
+	margin: 16px 2px;
+	padding: 12px;
+	width: 47%;
+	float: left;
+	font-weight: bold;
+	font-size: 20px;
+	border-width: 3px;
+}
+.imgs {
+    vertical-align: middle;
+    border: 1px #00F;
+    float: right;
+     vertical-align: middle;
+	 border: 1px #00F;
+    float: right;
+}
+
+
+ a:hover { border-color: #ccc; }

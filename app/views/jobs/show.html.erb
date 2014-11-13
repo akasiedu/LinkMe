@@ -1,0 +1,16 @@
+<p>
+	<strong>Company name</strong>
+	<%= @job.company_name %>
+</p>
+
+<p>
+	<strong>Company logo</strong>
+	<%= link_to image_tag(@job.company_logo, :width => 200) if @job.company_logo.present? %>
+</p>
+
+<p>
+	<strong>Job Description</strong>
+	<%= @job.job_description %>
+</p>
+
+<%= link_to 'Back', jobs_path %>

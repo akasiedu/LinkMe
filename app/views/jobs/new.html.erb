@@ -1,0 +1,39 @@
+<h1> Post Your Job</h1>
+
+<%= form_for :job, url: jobs_path do |f| %>
+  
+  <% if @job.errors.any? %>
+  <div id="error_explanation">
+    <h2><%= pluralize(@job.errors.count, "error") %> 
+        prohibited this Job Posting from being saved:</h2>
+    <ul>
+    <% @job.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+  <% end %>
+
+
+
+ 	<p class="">
+ 		<%= f.label :company_name %>
+ 		<%= f.text_field :company_name %>
+ 	</p>
+
+ 	<p class="">
+    <%= f.label :company_logo %>
+    <%= f.file_field :company_logo %>
+  </p>
+
+  <p class="">
+    <%= f.label :job_Description %>
+    <%= f.text_area :job_description %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+
+  <% end %>
+  <%= link_to 'Back', jobs_path %>

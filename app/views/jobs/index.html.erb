@@ -1,0 +1,17 @@
+<h1>Recent Job Listings</h1>
+<!-- <%= link_to 'New Jobs', new_job_path %> -->
+
+<div class="">
+<% @jobs.each do |job| %>
+<div class="jobs">
+<div class="">Company Name:<%= job.company_name %></div>
+<div class="imgs"><%= image_tag(job.company_logo, :width => 90, :height => 80) %></div>
+<div class="">Job Description<%= job.job_description %></div>
+<%= link_to 'Show Details', job_path(job) %>
+<%= link_to 'Edit your Posting', edit_job_path(job) %>
+
+</div>
+
+
+<% end %>	
+</div>
