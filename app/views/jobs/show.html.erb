@@ -1,4 +1,4 @@
-<p>
+<!-- <p>
 	<strong>Company name</strong>
 	<%= @job.company_name %>
 </p>
@@ -12,5 +12,26 @@
 	<strong>Job Description</strong>
 	<%= @job.job_description %>
 </p>
+ -->
 
-<%= link_to 'Back', jobs_path %>
+<div class="col-md-4 col-sm-4">
+	<div class="panel panel-primary">
+		<div class="panel-heading">
+			<strong>Company Name:</strong>  <%= @job.company_name %>
+		</div>
+
+		<div class="panel-body">
+			<%= image_tag(@job.company_logo, :width => 90, :height => 80) if @job.company_logo.present?%>
+			<div class="container">
+				<%= @job.job_description %>
+			</div>
+		</div>
+
+		
+	</div>
+
+	<%= link_to 'Back', jobs_path %>
+</div>
+
+
+

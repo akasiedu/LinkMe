@@ -1,15 +1,48 @@
-<h1>Recent Job Listings</h1>
+<center><h1>Recent Job Listings</h1></center>
 <!-- <%= link_to 'New Jobs', new_job_path %> -->
+
+ <% if @jobs.blank? %>
+        <p style="font-size:75px; text-align:center; margin-top:150px" >There are no Job Postings Yet</p>
+        <center><button style="font-size:30px; margin-top:50px"><a href="/jobs/new">Add New</a></button></center>
+<% end %>
+
+
+
 
 <div class="">
 <% @jobs.each do |job| %>
-<div class="jobs">
-<div class="">Company Name:<%= job.company_name %></div>
+<!-- <div class="jobs">
+<div>Company Name:<%= job.company_name %></div>
 <div class="imgs"><%= image_tag(job.company_logo, :width => 90, :height => 80) %></div>
 <div class="">Job Description<%= job.job_description %></div>
 <%= link_to 'Show Details', job_path(job) %>
 <%= link_to 'Edit your Posting', edit_job_path(job) %>
+<%=  link_to 'Delete Posting', job_path(job), method: :delete, data: { confirm: 'Are you sure?' } %>
 
+
+</div> -->
+
+
+<div class="col-md-4 col-sm-4">
+	<div class="panel panel-primary">
+		<div class="panel-heading">
+			<strong>Company Name:</strong>  <%= job.company_name %>
+		</div>
+
+		<div class="panel-body">
+			<%= image_tag(job.company_logo, :width => 90, :height => 80) %>
+			<div class="container">
+				<%= job.job_description %>
+			</div>
+		</div>
+
+		<div class="panel-footer">
+			<%= link_to 'Show Details', job_path(job) %>|
+			<%= link_to 'Edit your Posting', edit_job_path(job) %>|
+			<%=  link_to 'Delete Posting', job_path(job), method: :delete, data: { confirm: 'Are you sure?' } %>|
+			<div class="btn btn-primary"><a href="#">APPLY</a></div>
+		</div>
+	</div>
 </div>
 
 
