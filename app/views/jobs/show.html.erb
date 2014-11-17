@@ -14,7 +14,7 @@
 </p>
  -->
 
-<div class="col-md-4 col-sm-4">
+<div class=" col-lg-4 col-md-4 col-sm-4">
 	<div class="panel panel-primary">
 		<div class="panel-heading">
 			<strong>Company Name:</strong>  <%= @job.company_name %>
@@ -23,14 +23,13 @@
 		<div class="panel-body">
 			<%= image_tag(@job.company_logo, :width => 90, :height => 80) if @job.company_logo.present?%>
 			<div class="container">
-				<%= @job.job_description %>
+				<%= @job.job_description%>
 			</div>
 		</div>
 
 		
 	</div>
-
-	<%= link_to 'Back', jobs_path %>
+	<%= link_to 'Back', jobs_path, class: "btn btn-primary" %>
 </div>
 
 

@@ -13,10 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+ html {
+  overflow-y: scroll;
+}
+
  body{
  	background-color: #C8E8CC;
  }
-
+#for{
+	margin-bottom: 35px;
+}
  .jobs{
  	display: block;
 	border-style: solid;
@@ -40,4 +47,7 @@ img {
 }
 
 
- a:hover { border-color: #ccc; }
+ a:hover { 
+ 	border-color: #ccc;
+ 	text-decoration: none; 
+ }

@@ -15,24 +15,27 @@
 
 <div class="row">
 <div class="col-md-6 col-md-offset-3">
- 	<p>
- 		<%= f.label :company_name %>
+ 	<div class="form-group">
+ 		<!-- <%= f.label :company_name %> -->
+    Company Name
  		<%= f.text_field :company_name %>
- 	</p>
+ 	</div>
 
- 	<p >
-    <%= f.label :company_logo %>
+ 	<div class="form-group">
+    <!-- <%= f.label :company_logo %> -->
+    Company Logo
     <%= f.file_field :company_logo %>
-  </p>
+  </div>
 
-  <p>
-    <%= f.label :job_Description %>
+  <div class="form-group">
+    <!-- <%= f.label :job_Description %> -->
+    Job Description
     <%= f.text_area :job_description %>
-  </p>
+  </div>
 
-  <p>
-    <%= f.submit "Create my Job Posting", class: "btn btn-primary"%>
-  </p>
+  <div class="action">
+    <%= f.submit "Submit", class: "btn btn-primary"%>
+  </div>
 
   <% end %>
   </div>
