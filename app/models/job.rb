@@ -5,4 +5,13 @@ class Job < ActiveRecord::Base
 						length: { minimum: 5 }
 	validates :job_description, presence: true, 
 						length: { minimum: 5 }
+	# validates_uniqueness_of :
 end
+
+
+
+
+
+
+# Ctags
+# exuberant ctags

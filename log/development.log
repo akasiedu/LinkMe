@@ -20738,3 +20738,1568 @@ Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 13:40:20 +00
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 13:40:20 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 13:55:10 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 113ms (Views: 104.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-18 13:55:10 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-18 13:55:10 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 13:55:10 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 13:55:10 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 13:55:10 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 13:55:10 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 13:55:10 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 13:55:10 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-18 13:55:10 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 13:55:10 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 13:55:10 +0000
+
+
+Started GET "/jobs" for 127.0.0.1 at 2014-11-18 13:55:11 +0000
+Processing by JobsController#index as HTML
+  [1m[35mJob Load (0.2ms)[0m  SELECT "jobs".* FROM "jobs"
+  [1m[36mJob Load (0.1ms)[0m  [1mSELECT "jobs".* FROM "jobs"   ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 79ms (Views: 73.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/jobs/new" for 127.0.0.1 at 2014-11-18 13:55:16 +0000
+Processing by JobsController#new as HTML
+  Rendered jobs/_form.html.erb (20.3ms)
+  Rendered jobs/new.html.erb within layouts/application (22.8ms)
+Completed 200 OK in 84ms (Views: 83.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 13:55:19 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 55ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 13:55:26 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 75ms (Views: 74.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-18 13:55:26 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 13:55:26 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 13:55:26 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 13:55:26 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-18 13:55:26 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 13:55:26 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-18 13:55:26 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 13:55:26 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 13:55:26 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 13:55:26 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 13:55:26 +0000
+
+
+Started GET "/company/new" for 127.0.0.1 at 2014-11-18 14:00:35 +0000
+Processing by CompanyController#new as HTML
+  Rendered company/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 352ms (Views: 351.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-18 14:00:35 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-18 14:00:35 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 14:00:35 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-18 14:00:35 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 14:00:35 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 14:00:35 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 14:00:35 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 14:00:35 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 14:00:35 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-18 14:00:35 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-18 14:00:35 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 14:00:35 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 14:00:35 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 15:28:30 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 448ms (Views: 428.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-18 15:28:31 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-18 15:28:31 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-18 15:28:31 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:31 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 15:28:31 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:31 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 15:28:31 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:31 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:31 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:31 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:31 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:31 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:31 +0000
+
+
+Started GET "/jobs" for 127.0.0.1 at 2014-11-18 15:28:32 +0000
+Processing by JobsController#index as HTML
+  [1m[35mJob Load (0.4ms)[0m  SELECT "jobs".* FROM "jobs"
+  [1m[36mJob Load (0.2ms)[0m  [1mSELECT "jobs".* FROM "jobs"   ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 149ms (Views: 99.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+
+
+Started GET "/jobs" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+Processing by JobsController#index as HTML
+  [1m[35mJob Load (0.2ms)[0m  SELECT "jobs".* FROM "jobs"
+  [1m[36mJob Load (0.2ms)[0m  [1mSELECT "jobs".* FROM "jobs"   ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 99ms (Views: 97.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:33 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 15:28:38 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 73ms (Views: 72.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 15:28:41 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 69ms (Views: 68.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-18 15:28:41 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-18 15:28:41 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 15:28:41 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-18 15:28:41 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:41 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:41 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 15:28:41 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:41 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:41 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:41 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:41 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:41 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:41 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 15:28:48 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 71ms (Views: 70.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-18 15:28:48 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-18 15:28:48 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:48 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-18 15:28:48 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 15:28:48 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 15:28:48 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:48 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:48 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:48 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:48 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:48 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:48 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 15:28:48 +0000
+
+
+Started GET "/jobs" for 127.0.0.1 at 2014-11-18 15:28:49 +0000
+Processing by JobsController#index as HTML
+  [1m[35mJob Load (0.3ms)[0m  SELECT "jobs".* FROM "jobs"
+  [1m[36mJob Load (0.3ms)[0m  [1mSELECT "jobs".* FROM "jobs"   ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 79ms (Views: 77.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/company/new" for 127.0.0.1 at 2014-11-18 15:28:58 +0000
+
+ActionController::RoutingError (No route matches [GET] "/company/new"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.3ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.1ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2014-11-18 15:29:20 +0000
+
+ActionController::RoutingError (No route matches [GET] "/articles/new"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (14.4ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2014-11-18 15:29:39 +0000
+Processing by CompanyController#new as HTML
+  Rendered company/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 66ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-18 15:29:39 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-18 15:29:39 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 15:29:39 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 15:29:39 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 15:29:39 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 15:29:39 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-18 15:29:39 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 15:29:40 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 15:29:40 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-18 15:29:40 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-18 15:29:40 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 15:29:40 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 15:29:40 +0000
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-11-18 15:29:51 +0000
+
+ActionController::RoutingError (No route matches [GET] "/users/new"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.8ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2014-11-18 15:31:03 +0000
+Processing by CompanyController#new as HTML
+  Rendered company/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 67ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-18 15:31:03 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-18 15:31:03 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-18 15:31:03 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 15:31:03 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 15:31:03 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 15:31:03 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 15:31:03 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 15:31:03 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 15:31:03 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-18 15:31:03 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-18 15:31:03 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 15:31:03 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 15:31:03 +0000
+
+
+Started GET "/company" for 127.0.0.1 at 2014-11-18 15:31:06 +0000
+
+ActionController::RoutingError (No route matches [GET] "/company"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (13.8ms)
+
+
+Started GET "/company" for 127.0.0.1 at 2014-11-18 15:31:06 +0000
+
+ActionController::RoutingError (No route matches [GET] "/company"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (14.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2014-11-18 15:31:28 +0000
+Processing by CompanyController#new as HTML
+  Rendered company/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-18 15:31:28 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-18 15:31:28 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-18 15:31:28 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 15:31:28 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 15:31:28 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 15:31:28 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 15:31:28 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 15:31:28 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 15:31:28 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-18 15:31:28 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-18 15:31:28 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 15:31:28 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 15:31:28 +0000
+
+
+Started GET "/signup" for 127.0.0.1 at 2014-11-18 15:31:31 +0000
+Processing by CompanyController#new as HTML
+  Rendered company/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 60ms (Views: 59.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2014-11-18 15:32:09 +0000
+Processing by CompanyController#new as HTML
+  Rendered company/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 68ms (Views: 67.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-18 15:32:09 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-18 15:32:09 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 15:32:09 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-18 15:32:09 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 15:32:09 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 15:32:09 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 15:32:09 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 15:32:09 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 15:32:09 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-18 15:32:09 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-18 15:32:09 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 15:32:09 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 15:32:09 +0000
+
+
+Started GET "/signup_path" for 127.0.0.1 at 2014-11-18 15:32:13 +0000
+
+ActionController::RoutingError (No route matches [GET] "/signup_path"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (13.0ms)
+
+
+Started GET "/signup_path" for 127.0.0.1 at 2014-11-18 15:32:13 +0000
+
+ActionController::RoutingError (No route matches [GET] "/signup_path"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (7.6ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.2ms)
+
+
+Started GET "/signup_path" for 127.0.0.1 at 2014-11-18 15:32:54 +0000
+
+ActionController::RoutingError (No route matches [GET] "/signup_path"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (14.3ms)
+
+
+Started GET "/signup_path" for 127.0.0.1 at 2014-11-18 15:32:55 +0000
+
+ActionController::RoutingError (No route matches [GET] "/signup_path"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/kwame/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (15.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2014-11-18 15:32:59 +0000
+Processing by CompanyController#new as HTML
+  Rendered company/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 66ms (Views: 65.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-18 15:32:59 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 15:32:59 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-18 15:32:59 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-18 15:32:59 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 15:32:59 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 15:32:59 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 15:32:59 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 15:32:59 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 15:32:59 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-18 15:32:59 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-18 15:32:59 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 15:32:59 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 15:32:59 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 15:33:05 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 70ms (Views: 69.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-18 15:33:05 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 15:33:05 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-18 15:33:05 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 15:33:05 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 15:33:05 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 15:33:05 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-18 15:33:05 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 15:33:05 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-18 15:33:05 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 15:33:05 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 15:33:05 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-18 15:33:05 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 15:33:05 +0000
+
+
+Started GET "/signup" for 127.0.0.1 at 2014-11-18 15:33:07 +0000
+Processing by CompanyController#new as HTML
+  Rendered company/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 64ms (Views: 63.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2014-11-18 15:34:39 +0000
+Processing by CompanyController#new as HTML
+  Rendered company/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 75ms (Views: 74.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-18 15:34:40 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-18 15:34:40 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-18 15:34:40 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 15:34:40 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 15:34:40 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 15:34:40 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 15:34:40 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 15:34:40 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 15:34:40 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-18 15:34:40 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-18 15:34:40 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 15:34:40 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 15:34:40 +0000
+
+
+Started GET "/signup" for 127.0.0.1 at 2014-11-18 15:41:25 +0000
+Processing by CompanyController#new as HTML
+  Rendered company/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 70ms (Views: 69.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-18 15:41:26 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-18 15:41:26 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 15:41:26 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 15:41:26 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 15:41:26 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-18 15:41:26 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 15:41:26 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 15:41:26 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 15:41:26 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-18 15:41:26 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-18 15:41:26 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 15:41:26 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 15:41:26 +0000
+
+
+Started GET "/signup" for 127.0.0.1 at 2014-11-18 15:41:27 +0000
+Processing by CompanyController#new as HTML
+  Rendered company/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 69ms (Views: 68.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-18 15:41:27 +0000
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-18 15:41:27 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 15:41:27 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 15:41:27 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 15:41:27 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-18 15:41:27 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 15:41:27 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 15:41:27 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 15:41:27 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-18 15:41:27 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-18 15:41:27 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 15:41:27 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 15:41:27 +0000
+
+
+Started GET "/signup" for 127.0.0.1 at 2014-11-18 15:41:28 +0000
+Processing by CompanyController#new as HTML
+  Rendered company/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 74ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-18 15:41:28 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-18 15:41:28 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 15:41:28 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 15:41:28 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 15:41:28 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-18 15:41:28 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 15:41:28 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 15:41:28 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 15:41:28 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-18 15:41:28 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-18 15:41:28 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 15:41:28 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 15:41:28 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateCompanies (20141118154913)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "companies" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "company_name" varchar(255), "type_of_business" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20141118154913"]]
+  [1m[36m (118.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.8ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "companies" ("company_name", "created_at", "email", "type_of_business", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["company_name", "Ayo Inc"], ["created_at", "2014-11-18 16:00:20.545261"], ["email", "ayo@meltwater.org"], ["type_of_business", "Clothing Company"], ["updated_at", "2014-11-18 16:00:20.545261"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mCompany Load (0.4ms)[0m  [1mSELECT  "companies".* FROM "companies"  WHERE "companies"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCompany Load (0.1ms)[0m  SELECT  "companies".* FROM "companies"  WHERE "companies"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 16:09:18 +0000
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 64ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-18 16:09:18 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 16:09:18 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-18 16:09:18 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-18 16:09:18 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 16:09:18 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 16:09:18 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 16:09:18 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 16:09:18 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 16:09:18 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-18 16:09:18 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-18 16:09:18 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 16:09:18 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 16:09:18 +0000
+
+
+Started GET "/jobs" for 127.0.0.1 at 2014-11-18 16:09:20 +0000
+Processing by JobsController#index as HTML
+  [1m[36mJob Load (0.2ms)[0m  [1mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35mJob Load (0.1ms)[0m  SELECT "jobs".* FROM "jobs"   ORDER BY created_at DESC
+  Rendered jobs/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 70ms (Views: 62.5ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 16:15:57 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 125ms (Views: 116.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-18 16:15:57 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-18 16:15:57 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-18 16:15:57 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 16:15:57 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 16:15:57 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 16:15:57 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 16:15:57 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 16:15:57 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 16:15:57 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-18 16:15:57 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-18 16:15:57 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 16:15:57 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 16:15:57 +0000
+
+
+Started GET "/jobs" for 127.0.0.1 at 2014-11-18 16:15:58 +0000
+Processing by JobsController#index as HTML
+  [1m[35mJob Load (0.2ms)[0m  SELECT "jobs".* FROM "jobs"
+  [1m[36mJob Load (0.3ms)[0m  [1mSELECT "jobs".* FROM "jobs"   ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 83ms (Views: 78.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/jobs/new" for 127.0.0.1 at 2014-11-18 16:16:01 +0000
+Processing by JobsController#new as HTML
+  Rendered jobs/_form.html.erb (53.9ms)
+  Rendered jobs/new.html.erb within layouts/application (73.5ms)
+Completed 200 OK in 147ms (Views: 146.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/jobs" for 127.0.0.1 at 2014-11-18 16:17:33 +0000
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YcBkjiyZToRf5J5mBWu16pjVVqOycA8jBxIsjzrGdM4=", "job"=>{"company_name"=>"Wizcodetech", "company_logo"=>#<ActionDispatch::Http::UploadedFile:0x000000040f5e20 @tempfile=#<Tempfile:/tmp/RackMultipart20141118-10550-18rbfsu>, @original_filename="agera.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"job[company_logo]\"; filename=\"agera.jpg\"\r\nContent-Type: image/jpeg\r\n">, "job_description"=>"We are looking for people with skills in web frameworks such as ruby on rails and in android development"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "jobs" ("company_logo", "company_name", "created_at", "job_description", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["company_logo", "agera.jpg"], ["company_name", "Wizcodetech"], ["created_at", "2014-11-18 16:17:34.015402"], ["job_description", "We are looking for people with skills in web frameworks such as ruby on rails and in android development"], ["updated_at", "2014-11-18 16:17:34.015402"]]
+  [1m[35m (198.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/jobs/6
+Completed 302 Found in 238ms (ActiveRecord: 199.2ms)
+
+
+Started GET "/jobs/6" for 127.0.0.1 at 2014-11-18 16:17:34 +0000
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mJob Load (0.2ms)[0m  [1mSELECT  "jobs".* FROM "jobs"  WHERE "jobs"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered jobs/show.html.erb within layouts/application (7.3ms)
+Completed 500 Internal Server Error in 21ms
+
+SyntaxError (/home/kwame/Sites/LinkMe/app/views/jobs/show.html.erb:8: syntax error, unexpected ':', expecting ')'
+/home/kwame/Sites/LinkMe/app/views/jobs/show.html.erb:13: unknown regexp options - trg
+/home/kwame/Sites/LinkMe/app/views/jobs/show.html.erb:15: syntax error, unexpected '<', expecting ')'
+/home/kwame/Sites/LinkMe/app/views/jobs/show.html.erb:21: unknown regexp options - trg
+/home/kwame/Sites/LinkMe/app/views/jobs/show.html.erb:22: syntax error, unexpected '<', expecting ')'
+		</div>
+		 ^
+/home/kwame/Sites/LinkMe/app/views/jobs/show.html.erb:28: unknown regexp options - dv
+/home/kwame/Sites/LinkMe/app/views/jobs/show.html.erb:29: syntax error, unexpected '<'
+		</div>
+		 ^
+/home/kwame/Sites/LinkMe/app/views/jobs/show.html.erb:32: unknown regexp options - dv
+/home/kwame/Sites/LinkMe/app/views/jobs/show.html.erb:33: syntax error, unexpected tCONSTANT, expecting ')'
+...t_buffer.append=( link_to 'Back', jobs_path, class: "btn btn...
+...                               ^
+/home/kwame/Sites/LinkMe/app/views/jobs/show.html.erb:34: syntax error, unexpected '<', expecting ')'
+</div>
+ ^
+/home/kwame/Sites/LinkMe/app/views/jobs/show.html.erb:34: unterminated regexp meets end of file):
+  app/views/jobs/show.html.erb:8: syntax error, unexpected ':', expecting ')'
+  app/views/jobs/show.html.erb:13: unknown regexp options - trg
+  app/views/jobs/show.html.erb:15: syntax error, unexpected '<', expecting ')'
+  app/views/jobs/show.html.erb:21: unknown regexp options - trg
+  app/views/jobs/show.html.erb:22: syntax error, unexpected '<', expecting ')'
+  app/views/jobs/show.html.erb:28: unknown regexp options - dv
+  app/views/jobs/show.html.erb:29: syntax error, unexpected '<'
+  app/views/jobs/show.html.erb:32: unknown regexp options - dv
+  app/views/jobs/show.html.erb:33: syntax error, unexpected tCONSTANT, expecting ')'
+  app/views/jobs/show.html.erb:34: syntax error, unexpected '<', expecting ')'
+  app/views/jobs/show.html.erb:34: unterminated regexp meets end of file
+
+
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/kwame/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.3ms)
+
+
+Started GET "/jobs/6" for 127.0.0.1 at 2014-11-18 16:18:29 +0000
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mJob Load (0.1ms)[0m  SELECT  "jobs".* FROM "jobs"  WHERE "jobs"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered jobs/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 73ms (Views: 71.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-18 16:18:29 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 16:18:29 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-18 16:18:29 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 16:18:29 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 16:18:29 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-18 16:18:29 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 16:18:29 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 16:18:29 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 16:18:29 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-18 16:18:29 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-18 16:18:29 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 16:18:29 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 16:18:29 +0000
+
+
+Started GET "/jobs" for 127.0.0.1 at 2014-11-18 16:18:32 +0000
+Processing by JobsController#index as HTML
+  [1m[36mJob Load (0.1ms)[0m  [1mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35mJob Load (0.1ms)[0m  SELECT "jobs".* FROM "jobs"   ORDER BY created_at DESC
+  Rendered jobs/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 77ms (Views: 76.7ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/jobs/6" for 127.0.0.1 at 2014-11-18 16:18:39 +0000
+Processing by JobsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"YcBkjiyZToRf5J5mBWu16pjVVqOycA8jBxIsjzrGdM4=", "id"=>"6"}
+  [1m[36mJob Load (0.1ms)[0m  [1mSELECT  "jobs".* FROM "jobs"  WHERE "jobs"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "jobs" WHERE "jobs"."id" = ?[0m  [["id", 6]]
+  [1m[35m (126.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/jobs
+Completed 302 Found in 130ms (ActiveRecord: 127.1ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at 2014-11-18 16:18:39 +0000
+Processing by JobsController#index as HTML
+  [1m[36mJob Load (0.2ms)[0m  [1mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35mJob Load (0.2ms)[0m  SELECT "jobs".* FROM "jobs"   ORDER BY created_at DESC
+  Rendered jobs/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 71ms (Views: 70.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-18 16:18:39 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-18 16:18:39 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 16:18:39 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 16:18:39 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-18 16:18:39 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 16:18:39 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 16:18:39 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 16:18:39 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-18 16:18:39 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 16:18:39 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-18 16:18:39 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 16:18:39 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 16:18:39 +0000
+
+
+Started GET "/jobs/new" for 127.0.0.1 at 2014-11-18 16:18:52 +0000
+Processing by JobsController#new as HTML
+  Rendered jobs/_form.html.erb (1.2ms)
+  Rendered jobs/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 66ms (Views: 65.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/jobs" for 127.0.0.1 at 2014-11-18 16:19:29 +0000
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YcBkjiyZToRf5J5mBWu16pjVVqOycA8jBxIsjzrGdM4=", "job"=>{"company_name"=>"Moses Inc", "company_logo"=>#<ActionDispatch::Http::UploadedFile:0x00000001c593f0 @tempfile=#<Tempfile:/tmp/RackMultipart20141118-10550-1hh031g>, @original_filename="p1.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"job[company_logo]\"; filename=\"p1.jpeg\"\r\nContent-Type: image/jpeg\r\n">, "job_description"=>"Very Good Salary"}, "commit"=>"Submit"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "jobs" ("company_logo", "company_name", "created_at", "job_description", "updated_at") VALUES (?, ?, ?, ?, ?)  [["company_logo", "p1.jpeg"], ["company_name", "Moses Inc"], ["created_at", "2014-11-18 16:19:29.479595"], ["job_description", "Very Good Salary"], ["updated_at", "2014-11-18 16:19:29.479595"]]
+  [1m[36m (159.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/jobs/7
+Completed 302 Found in 164ms (ActiveRecord: 159.4ms)
+
+
+Started GET "/jobs/7" for 127.0.0.1 at 2014-11-18 16:19:29 +0000
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mJob Load (0.1ms)[0m  SELECT  "jobs".* FROM "jobs"  WHERE "jobs"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered jobs/show.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 65ms (Views: 64.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-18 16:19:29 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-18 16:19:29 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-18 16:19:29 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 16:19:29 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 16:19:29 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 16:19:29 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-18 16:19:29 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 16:19:29 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 16:19:29 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-18 16:19:29 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-18 16:19:29 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 16:19:29 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 16:19:29 +0000
+
+
+Started GET "/jobs" for 127.0.0.1 at 2014-11-18 16:19:34 +0000
+Processing by JobsController#index as HTML
+  [1m[36mJob Load (0.1ms)[0m  [1mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35mJob Load (0.1ms)[0m  SELECT "jobs".* FROM "jobs"   ORDER BY created_at DESC
+  Rendered jobs/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 67ms (Views: 65.8ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddIndexToCompaniesEmail (20141118165127)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  CREATE UNIQUE INDEX "index_companies_on_email" ON "companies" ("email")
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141118165127"]]
+  [1m[35m (107.8ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_companies_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_companies_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddPasswordDigestToCompanies (20141118170204)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "companies" ADD "password_digest" varchar(255)[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20141118170204"]]
+  [1m[36m (130.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_companies_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_companies_on_email' AND type='index'
+[0m

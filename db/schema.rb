@@ -11,7 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141112093410) do
+ActiveRecord::Schema.define(version: 20141118170204) do
+
+  create_table "companies", force: true do |t|
+    t.string   "company_name"
+    t.string   "type_of_business"
+    t.string   "email"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "password_digest"
+  end
+
+  add_index "companies", ["email"], name: "index_companies_on_email", unique: true
 
   create_table "jobs", force: true do |t|
     t.string   "company_name"
