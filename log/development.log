@@ -28410,3 +28410,464 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 11:24:49
   [1m[35m (0.2ms)[0m  begin transaction
   [1m[36mCompany Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "companies"  WHERE ("companies"."email" IS NULL AND "companies"."id" != 4) LIMIT 1[0m
   [1m[35m (0.1ms)[0m  rollback transaction
+
+
+Started GET "/signup" for 127.0.0.1 at 2014-11-19 11:41:42 +0000
+Processing by CompanyController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered company/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 64ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/signup" for 127.0.0.1 at 2014-11-19 11:41:52 +0000
+Processing by CompanyController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ady/IZA8Wi0/1GNeS8pmANw2WpM07doU1NpUcTl6Pjo=", "company"=>{"company_name"=>"", "type_of_business"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create Company Account"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mCompany Exists (0.1ms)[0m  SELECT  1 AS one FROM "companies"  WHERE LOWER("companies"."email") = LOWER('') LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  Rendered shared/_error_messages.html.erb (7.8ms)
+  Rendered company/new.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 86ms (Views: 78.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-19 11:41:52 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-19 11:41:52 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-19 11:41:52 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 11:41:52 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-19 11:41:52 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 11:41:52 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 11:41:53 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-19 11:41:53 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 11:41:53 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-19 11:41:53 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-19 11:41:53 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-19 11:41:53 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 11:41:53 +0000
+
+
+Started GET "/signup" for 127.0.0.1 at 2014-11-19 11:41:59 +0000
+Processing by CompanyController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered company/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 74ms (Views: 73.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 11:45:53 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 63ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at 2014-11-19 11:45:55 +0000
+Processing by JobsController#index as HTML
+  [1m[35mJob Load (0.1ms)[0m  SELECT "jobs".* FROM "jobs"
+  [1m[36mJob Load (0.1ms)[0m  [1mSELECT "jobs".* FROM "jobs"   ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 68ms (Views: 66.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2014-11-19 11:45:56 +0000
+Processing by CompanyController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered company/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 63ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jobs/new" for 127.0.0.1 at 2014-11-19 11:45:59 +0000
+Processing by JobsController#new as HTML
+  Rendered jobs/_form.html.erb (1.1ms)
+  Rendered jobs/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 72ms (Views: 71.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 11:46:01 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 63ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at 2014-11-19 11:46:02 +0000
+Processing by JobsController#index as HTML
+  [1m[35mJob Load (0.1ms)[0m  SELECT "jobs".* FROM "jobs"
+  [1m[36mJob Load (0.1ms)[0m  [1mSELECT "jobs".* FROM "jobs"   ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 63ms (Views: 61.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 11:55:53 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 63ms (Views: 61.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-19 11:55:53 +0000
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-19 11:55:53 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 11:55:53 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-19 11:55:53 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-19 11:55:53 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 11:55:53 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 11:55:53 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-19 11:55:53 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 11:55:53 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-19 11:55:53 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-19 11:55:53 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-19 11:55:53 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 11:55:53 +0000
+
+
+Started GET "/jobs" for 127.0.0.1 at 2014-11-19 11:55:55 +0000
+Processing by JobsController#index as HTML
+  [1m[35mJob Load (0.1ms)[0m  SELECT "jobs".* FROM "jobs"
+  [1m[36mJob Load (0.1ms)[0m  [1mSELECT "jobs".* FROM "jobs"   ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 66ms (Views: 65.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 12:44:53 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 75ms (Views: 74.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-19 12:44:53 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-19 12:44:53 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-19 12:44:53 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 12:44:53 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 12:44:53 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-19 12:44:53 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 12:44:53 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 12:44:53 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-19 12:44:53 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 12:44:53 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-19 12:44:53 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-19 12:44:53 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-19 12:44:53 +0000
+
+
+Started GET "/jobs" for 127.0.0.1 at 2014-11-19 12:44:57 +0000
+Processing by JobsController#index as HTML
+  [1m[35mJob Load (0.2ms)[0m  SELECT "jobs".* FROM "jobs"
+  [1m[36mJob Load (0.1ms)[0m  [1mSELECT "jobs".* FROM "jobs"   ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 77ms (Views: 76.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/jobs/new" for 127.0.0.1 at 2014-11-19 12:45:01 +0000
+Processing by JobsController#new as HTML
+  Rendered jobs/_form.html.erb (1.7ms)
+  Rendered jobs/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 68ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/jobs" for 127.0.0.1 at 2014-11-19 12:47:25 +0000
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YcBkjiyZToRf5J5mBWu16pjVVqOycA8jBxIsjzrGdM4=", "job"=>{"company_name"=>"David Evhade and Assoc.", "company_logo"=>#<ActionDispatch::Http::UploadedFile:0x00000005a96c58 @tempfile=#<Tempfile:/tmp/RackMultipart20141119-32435-112g4l>, @original_filename="berlinetta.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"job[company_logo]\"; filename=\"berlinetta.jpg\"\r\nContent-Type: image/jpeg\r\n">, "job_description"=>"Work  for this incredible startup firm in software development. We have a wide range of products to meet out client's needs. We are looking for a senior developer in django and also someone who is able to meet deadlines and a team player. Most importantly we look for someone who loves what he/she does."}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "jobs" ("company_logo", "company_name", "created_at", "job_description", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["company_logo", "berlinetta.jpg"], ["company_name", "David Evhade and Assoc."], ["created_at", "2014-11-19 12:47:25.082169"], ["job_description", "Work  for this incredible startup firm in software development. We have a wide range of products to meet out client's needs. We are looking for a senior developer in django and also someone who is able to meet deadlines and a team player. Most importantly we look for someone who loves what he/she does."], ["updated_at", "2014-11-19 12:47:25.082169"]]
+  [1m[35m (340.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/jobs/3
+Completed 302 Found in 345ms (ActiveRecord: 340.3ms)
+
+
+Started GET "/jobs/3" for 127.0.0.1 at 2014-11-19 12:47:25 +0000
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mJob Load (0.1ms)[0m  [1mSELECT  "jobs".* FROM "jobs"  WHERE "jobs"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered jobs/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 68ms (Views: 66.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-19 12:47:25 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-19 12:47:25 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-19 12:47:25 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-19 12:47:25 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-19 12:47:25 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 12:47:25 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 12:47:25 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 12:47:25 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 12:47:25 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-19 12:47:25 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-19 12:47:25 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-19 12:47:25 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 12:47:25 +0000
+
+
+Started GET "/jobs" for 127.0.0.1 at 2014-11-19 12:47:32 +0000
+Processing by JobsController#index as HTML
+  [1m[35mJob Load (0.1ms)[0m  SELECT "jobs".* FROM "jobs"
+  [1m[36mJob Load (0.1ms)[0m  [1mSELECT "jobs".* FROM "jobs"   ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 71ms (Views: 70.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/jobs/3" for 127.0.0.1 at 2014-11-19 12:47:43 +0000
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mJob Load (0.1ms)[0m  SELECT  "jobs".* FROM "jobs"  WHERE "jobs"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered jobs/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 73ms (Views: 72.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/jobs/3" for 127.0.0.1 at 2014-11-19 12:50:41 +0000
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mJob Load (0.1ms)[0m  [1mSELECT  "jobs".* FROM "jobs"  WHERE "jobs"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered jobs/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 76ms (Views: 74.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-19 12:50:41 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-19 12:50:41 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-19 12:50:41 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-19 12:50:41 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 12:50:41 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-19 12:50:41 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 12:50:41 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 12:50:41 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 12:50:41 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-19 12:50:41 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-19 12:50:41 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-19 12:50:41 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 12:50:41 +0000
+
+
+Started GET "/jobs" for 127.0.0.1 at 2014-11-19 12:50:44 +0000
+Processing by JobsController#index as HTML
+  [1m[35mJob Load (0.1ms)[0m  SELECT "jobs".* FROM "jobs"
+  [1m[36mJob Load (0.1ms)[0m  [1mSELECT "jobs".* FROM "jobs"   ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 70ms (Views: 69.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/jobs/3" for 127.0.0.1 at 2014-11-19 12:50:48 +0000
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mJob Load (0.1ms)[0m  SELECT  "jobs".* FROM "jobs"  WHERE "jobs"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered jobs/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 69ms (Views: 68.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at 2014-11-19 12:50:50 +0000
+Processing by JobsController#index as HTML
+  [1m[36mJob Load (0.2ms)[0m  [1mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35mJob Load (0.2ms)[0m  SELECT "jobs".* FROM "jobs"   ORDER BY created_at DESC
+  Rendered jobs/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 77ms (Views: 76.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/jobs/3/edit" for 127.0.0.1 at 2014-11-19 12:50:51 +0000
+Processing by JobsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mJob Load (0.1ms)[0m  [1mSELECT  "jobs".* FROM "jobs"  WHERE "jobs"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered jobs/_form.html.erb (1.5ms)
+  Rendered jobs/edit.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 71ms (Views: 70.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at 2014-11-19 12:50:52 +0000
+Processing by JobsController#index as HTML
+  [1m[35mJob Load (0.1ms)[0m  SELECT "jobs".* FROM "jobs"
+  [1m[36mJob Load (0.1ms)[0m  [1mSELECT "jobs".* FROM "jobs"   ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 73ms (Views: 72.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/jobs/3" for 127.0.0.1 at 2014-11-19 12:50:54 +0000
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mJob Load (0.1ms)[0m  SELECT  "jobs".* FROM "jobs"  WHERE "jobs"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered jobs/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 77ms (Views: 75.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at 2014-11-19 12:51:30 +0000
+Processing by JobsController#index as HTML
+  [1m[36mJob Load (0.1ms)[0m  [1mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35mJob Load (0.1ms)[0m  SELECT "jobs".* FROM "jobs"   ORDER BY created_at DESC
+  Rendered jobs/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 92ms (Views: 91.2ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/jobs/3" for 127.0.0.1 at 2014-11-19 12:53:30 +0000
+Processing by JobsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"YcBkjiyZToRf5J5mBWu16pjVVqOycA8jBxIsjzrGdM4=", "id"=>"3"}
+  [1m[36mJob Load (0.1ms)[0m  [1mSELECT  "jobs".* FROM "jobs"  WHERE "jobs"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "jobs" WHERE "jobs"."id" = ?[0m  [["id", 3]]
+  [1m[35m (156.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/jobs
+Completed 302 Found in 159ms (ActiveRecord: 156.6ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at 2014-11-19 12:53:30 +0000
+Processing by JobsController#index as HTML
+  [1m[36mJob Load (0.2ms)[0m  [1mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35mJob Load (0.2ms)[0m  SELECT "jobs".* FROM "jobs"   ORDER BY created_at DESC
+  Rendered jobs/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 81ms (Views: 80.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/company.css?body=1" for 127.0.0.1 at 2014-11-19 12:53:30 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-19 12:53:30 +0000
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-11-19 12:53:30 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-19 12:53:30 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 12:53:30 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 12:53:30 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 12:53:30 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 12:53:30 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-19 12:53:30 +0000
+
+
+Started GET "/assets/company.js?body=1" for 127.0.0.1 at 2014-11-19 12:53:30 +0000
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-11-19 12:53:30 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-19 12:53:30 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 12:53:30 +0000
+
+
+Started GET "/signup" for 127.0.0.1 at 2014-11-19 12:53:34 +0000
+Processing by CompanyController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered company/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 65ms (Views: 64.1ms | ActiveRecord: 0.0ms)
