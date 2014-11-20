@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+ 
+  get 'sessions/new'
+
+  get    'login'   => 'sessions#new'
+  post   'login'   => 'sessions#create'
+  delete 'logout'  => 'sessions#destroy'
+
+  # get 'company/new'
+  get 'signup' => 'company#new'
+   post 'signup' => 'company#create'
+  # post 'signup' => 'company#create'
+  resources :company
   # get 'welcome/index'
   resources :jobs
 

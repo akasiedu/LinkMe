@@ -2,7 +2,6 @@
 	<center><h1>Recent Job Listings</h1></center>
 
 </div>
-<!-- <%= link_to 'New Jobs', new_job_path %> -->
 
  <% if @jobs.blank? %>
         <p style="font-size:75px; text-align:center; margin-top:150px" >There are no Job Postings Yet</p>
@@ -32,10 +31,16 @@
 		</div>
 
 		<div class="panel-footer">
-			<%= link_to 'Show Details', job_path(p) %>|
-			<%= link_to 'Edit your Posting', edit_job_path(p) %>|
-			<%=  link_to 'Delete Posting', job_path(p), method: :delete, data: { confirm: 'Are you sure?' } %>|
-			<div class="btn btn-primary"><a href="#">APPLY</a></div>
+			<div class="row">
+				<div class="col-md-8">
+					<%= link_to 'Show Post', job_path(p) %>|
+					<%= link_to 'Edit Post', edit_job_path(p) %>|
+					<%=  link_to 'Delete', job_path(p), method: :delete, data: { confirm: 'Are you sure?' } %>|
+				</div>
+				<div class="col-md-4">
+					<div class="btn btn-primary"><a href="#">APPLY</a></div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

@@ -68,3 +68,38 @@ input {
 h1{
 	text-align: center;
 }
+
+.btn-apply{
+	margin-left: 35px;
+}
+
+#error_explanation {
+  color: red;
+  ul {
+    color: red;
+    margin: 0 0 30px 0;
+  }
+}
+
+.field_with_errors {
+  @extend .has-error;
+  .form-control {
+    color: $state-danger-text;
+  }
+}
+
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+     margin-left: 22px;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
+ 
+}
