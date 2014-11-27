@@ -1,0 +1,48 @@
+<h1>Apply here</h1>
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3"> 
+  
+  <%= form_for :apply do |f| %>
+	<p>
+		<%= f.label :firstname %>
+		<%= f.text_field :firstname, class: 'form-control' %>
+	</p>
+
+	<p>
+		<%= f.label :lastname %>
+		<%= f.text_field :lastname, class: 'form-control' %>
+	</p>
+
+	<p>
+    	<%= f.label :email %>
+    	<%= f.text_field :email, class: 'form-control' %>
+   </p>
+  
+  	<p>
+    	<%= f.label :phone_number %><br />
+    	<%= f.text_field :phone_number, class: 'form-control' %>
+  	</p>
+  
+  	<p>
+    	<%= f.label :level_of_education %>
+    	<%= f.text_field :level_of_education, class: 'form-control' %>
+  	</p>
+
+    <p>
+      <%= f.label :specialty %>
+      <%= f.text_field :specialty, class: 'form-control' %>
+    </p>
+
+    <p>
+      <%= f.label :resume %>
+      <%= f.file_field :resume, class: '' %>
+    </p>
+
+     <%= f.hidden_field :company_id %>
+
+  	<div class="action">
+    <%= f.submit "Submit", class: "btn btn-primary"%>
+  </div>
+<% end %>
+</div>
+</div>

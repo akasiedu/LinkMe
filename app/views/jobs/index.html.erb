@@ -5,8 +5,10 @@
 
  <% if @jobs.blank? %>
         <p style="font-size:75px; text-align:center; margin-top:150px" >There are no Job Postings Yet</p>
-        <center><button style="font-size:30px; margin-top:50px"><a href="/jobs/new">Add New</a></button></center>
+        <center><a href="/jobs/new" class="btn btn-primary">Post New Job</a></center>
 <% end %>
+
+
 
 
 
@@ -33,12 +35,18 @@
 		<div class="panel-footer">
 			<div class="row">
 				<div class="col-md-8">
-					<%= link_to 'Show Post', job_path(p) %>|
+					
+					<% if logged_in? %>
 					<%= link_to 'Edit Post', edit_job_path(p) %>|
 					<%=  link_to 'Delete', job_path(p), method: :delete, data: { confirm: 'Are you sure?' } %>|
+					<%= link_to 'Show Post', job_path(p) %>
+					<% else %>
+					<%= link_to 'Show Post', job_path(p) %>
+					<% end %>
+
 				</div>
 				<div class="col-md-4">
-					<div class="btn btn-primary"><a href="#">APPLY</a></div>
+					<div class="btn btn-primary"><%= link_to 'Apply', new_apply_path(p) %></a></div>
 				</div>
 			</div>
 		</div>

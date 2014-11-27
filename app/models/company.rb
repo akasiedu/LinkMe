@@ -1,5 +1,5 @@
 class Company < ActiveRecord::Base 
-	has_many :jobs
+  
 	attr_accessor :remember_token
 	before_save { email.downcase! }
   validates :name, presence: true, length: { minimum: 5 }
@@ -35,7 +35,6 @@ class Company < ActiveRecord::Base
   	return false if remember_digest.nil?
     BCrypt::Password.new(remember_digest).is_password?(remember_token)
   end
-
 
   # Forgets a company.
   def forget

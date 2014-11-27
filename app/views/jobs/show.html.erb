@@ -8,14 +8,17 @@
 		<div class="panel-body">
 			<%= image_tag(@job.company_logo, :width => 90, :height => 80) if @job.company_logo.present?%>
 			<div class="container">
-				<%= @job.job_description%>
+				<%= truncate(@job.job_description, :length => 100, :separator => ' ')%>
 			</div>
 		</div>
 
 		<br>
 	</div>
+
+	<br>
 	<%= link_to 'Back', jobs_path, class: "btn btn-primary" %>
 </div>
 
 
 
+<!-- truncate(p.job_description, :length => 100, :separator => ' ' -->

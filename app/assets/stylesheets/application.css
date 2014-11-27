@@ -19,7 +19,7 @@
 }
 
  body{
- 	background-color: #C8E8CC;
+ 	background-color: #D7F2FA;
  }
 #for{
 	margin-bottom: 35px;
@@ -52,7 +52,8 @@ img {
  	text-decoration: none; 
  }
 
- /* forms */
+
+/* forms */
 
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
@@ -72,7 +73,6 @@ h1{
 .btn-apply{
 	margin-left: 35px;
 }
-
 #error_explanation {
   color: red;
   ul {
@@ -94,12 +94,13 @@ h1{
   span {
     margin-left: 20px;
     font-weight: normal;
-     margin-left: 22px;
   }
 }
 
 #session_remember_me {
   width: auto;
   margin-left: 0;
- 
+}
+.remember{
+  margin-left: 20px;
 }

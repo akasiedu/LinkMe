@@ -3,7 +3,10 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
+
 gem 'bootstrap-sass'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -29,12 +32,13 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
-
+gem 'pry', 			 group: :development
+gem 'pry-byebug',     group: :development
 # Use ActiveModel has_secure_password
  gem 'bcrypt'
 
  #Adding devise for Authentication
- gem 'devise'
+ # gem 'devise'
 
 # Use unicorn as the app server
 # gem 'unicorn'
