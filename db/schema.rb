@@ -13,8 +13,22 @@
 
 ActiveRecord::Schema.define(version: 20141126104105) do
 
-# Could not dump table "applies" because of following NoMethodError
-#   undefined method `[]' for nil:NilClass
+  create_table "applies", force: true do |t|
+    t.string   "firstname"
+    t.string   "lastname"
+    t.string   "email"
+    t.string   "phone_number"
+    t.string   "level_of_education"
+    t.string   "specialty"
+    t.string   "resume"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "jobs_id"
+    t.integer  "company_id"
+  end
+
+  add_index "applies", ["company_id"], name: "index_applies_on_company_id"
+  add_index "applies", ["jobs_id"], name: "index_applies_on_jobs_id"
 
   create_table "companies", force: true do |t|
     t.string   "name"

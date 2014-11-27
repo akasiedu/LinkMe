@@ -1,5 +1,5 @@
 class AddJobsRefToApply < ActiveRecord::Migration
   def change
-    add_column :applies, :jobs, :reference
+    add_reference :applies, :jobs, index: true
   end
 end
