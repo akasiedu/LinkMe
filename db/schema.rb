@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141126104105) do
+ActiveRecord::Schema.define(version: 20141128092607) do
 
   create_table "applies", force: true do |t|
     t.string   "firstname"
@@ -23,12 +23,12 @@ ActiveRecord::Schema.define(version: 20141126104105) do
     t.string   "resume"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "jobs_id"
     t.integer  "company_id"
+    t.integer  "job_id"
   end
 
   add_index "applies", ["company_id"], name: "index_applies_on_company_id"
-  add_index "applies", ["jobs_id"], name: "index_applies_on_jobs_id"
+  add_index "applies", ["job_id"], name: "index_applies_on_job_id"
 
   create_table "companies", force: true do |t|
     t.string   "name"
@@ -50,9 +50,9 @@ ActiveRecord::Schema.define(version: 20141126104105) do
     t.text     "job_description"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "companies_id"
+    t.integer  "company_id"
   end
 
-  add_index "jobs", ["companies_id"], name: "index_jobs_on_companies_id"
+  add_index "jobs", ["company_id"], name: "index_jobs_on_company_id"
 
 end

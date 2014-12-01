@@ -3,7 +3,7 @@ class JobsController < ApplicationController
 
 
 	def new
-		@job = Job.new
+		@job = Job.new(company_id: params[:company])
 	end
 
 	def index
@@ -45,7 +45,7 @@ class JobsController < ApplicationController
 	private
 	 
    def job_params
-		params.require(:job).permit(:company_name, :company_logo, :job_description)
+		params.require(:job).permit(:company_name, :company_logo, :job_description, :company_id)
 	 end
 
    def logged_in_company

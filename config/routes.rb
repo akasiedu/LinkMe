@@ -14,7 +14,7 @@ Rails.application.routes.draw do
   get 'signup' => 'company#new'
    post 'signup' => 'company#create'
   
-    resources :jobs
+      resources :jobs
       resources :company
       resources :apply
     

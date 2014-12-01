@@ -1,5 +1,6 @@
 class Job < ActiveRecord::Base
-	
+	belongs_to :company
+	has_many :apply
 	mount_uploader :company_logo, PictureUploader
 	validates_presence_of :company_logo
 	validates :company_name, presence: true, 

@@ -1,5 +1,6 @@
 class Apply < ActiveRecord::Base
   belongs_to :company
+  belongs_to :job
 	 mount_uploader :resume, PictureUploader
 	 validates :firstname, presence: true
    # validates :company_id

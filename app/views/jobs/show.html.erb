@@ -2,13 +2,13 @@
 <div class=" col-lg-4 col-md-4 col-sm-4">
 	<div class="panel panel-primary">
 		<div class="panel-heading">
-			<strong>Company Name:</strong>  <%= @job.company_name %>
+			<!-- <strong>Company Name:</strong> -->  <%= @job.company_name %>
 		</div>
 
 		<div class="panel-body">
 			<%= image_tag(@job.company_logo, :width => 90, :height => 80) if @job.company_logo.present?%>
 			<div class="container">
-				<%= truncate(@job.job_description, :length => 100, :separator => ' ')%>
+				<%=@job.job_description%>
 			</div>
 		</div>
 

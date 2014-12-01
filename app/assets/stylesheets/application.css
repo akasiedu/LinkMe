@@ -15,11 +15,12 @@
  */
 
  html {
-  overflow-y: scroll;
+  /*overflow-y: scroll*/;
+  overflow-x: hidden;
 }
 
  body{
- 	background-color: #D7F2FA;
+ 	background-color: #FBF5F3;
  }
 #for{
 	margin-bottom: 35px;
@@ -103,4 +104,7 @@ h1{
 }
 .remember{
   margin-left: 20px;
+}
+.unique { 
+   background-image: url('job2.png');
 }

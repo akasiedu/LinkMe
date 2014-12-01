@@ -1,5 +1,6 @@
 class Company < ActiveRecord::Base 
   has_many :apply
+  has_many :job
 	attr_accessor :remember_token
 	before_save { email.downcase! }
   validates :name, presence: true, length: { minimum: 5 }

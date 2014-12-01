@@ -1,3 +1,4 @@
+<div class="container" >
 <%= form_for :job, url: jobs_path do |f| %>
   
   <% if @job.errors.any? %>
@@ -16,7 +17,7 @@
 <div class="row">
 <div class="col-md-6 col-md-offset-3">
  	<div class="form-group">
-    Company Name
+   <!--   -->
  		<%= f.text_field :company_name %>
  	</div>
 
@@ -30,10 +31,13 @@
     <%= f.text_area :job_description %>
   </div>
 
+  <%= f.hidden_field :company_id, :value => current_company.id %>
+
   <div class="action">
-    <%= f.submit "Submit", class: "btn btn-primary"%>
+    <%= f.submit "Submit", class: "btn btn-primary", disable_with: "Submitting..."%>
   </div>
 
   <% end %>
+  </div>
   </div>
   </div>
